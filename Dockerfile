@@ -28,5 +28,8 @@ COPY . $APP_HOME
 # Expose port 3000
 EXPOSE 3000
 
+# Configure an entry point, wrap every CMD within bundle exec
+ENTRYPOINT ["bundle", "exec"]
+
 # Run rails server when container starts
-CMD ["bundle exec rails s -b 0.0.0.0"]
+CMD ["rails", "s", "-b", "0.0.0.0"]
