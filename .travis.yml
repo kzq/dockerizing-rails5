@@ -15,5 +15,5 @@ after_script:
   - docker-compose down
 
 script: 
-  - bundle exec rails test
+  - bundle exec rspec
 
