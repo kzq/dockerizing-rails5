@@ -1,24 +1,10 @@
-# README
+Dockerizing Rails5
+==========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Build Status](https://travis-ci.org/kzq/dockerizing-rails5.svg?branch=master)](https://travis-ci.org/kzq/dockerizing-rails5)
 
-Things you may want to cover:
+## Installation & Configuration
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+``` ruby
+docker-compose up --build -d
+```
